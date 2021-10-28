@@ -1,0 +1,19 @@
+//Server-1//
+
+#!/bin/bash
+yum update -y
+yum install httpd -y
+cd /var/www/html
+echo Hello OneMinuteLab - Server 1 > index.html
+systemctl start httpd
+systemctl enable httpd
+
+//Server-2//
+
+#!/bin/bash
+yum update -y
+yum install httpd -y
+cd /var/www/html
+echo Hello OneMinuteLab - Server 2 > index.html
+systemctl start httpd
+systemctl enable httpd
