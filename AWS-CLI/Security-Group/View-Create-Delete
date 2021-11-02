@@ -1,0 +1,5 @@
+aws  configure
+aws ec2 describe-security-groups
+aws ec2 describe-security-groups --group-name my-test-sg
+aws ec2 create-security-group --group-name my-test-sg --description "This is my test SG"
+aws ec2 delete-security-group --group-name my-test-sg
