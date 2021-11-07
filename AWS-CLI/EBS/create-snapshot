@@ -1,0 +1,3 @@
+aws configure
+aws ec2 describe-volumes
+aws ec2 create-snapshot --volume-id vol-040c070bec28ec342
