@@ -1,0 +1,2 @@
+aws configure
+aws ec2 register-image --name "Mt-Test-Image" --root-device-name /dev/xvda --block-device-mappings DeviceName=/dev/xvda,Ebs={SnapshotId=Snap0000000000}
