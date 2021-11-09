@@ -1,0 +1,2 @@
+aws configure
+aws ec2 deregister-image --image-id ami-0000000000
