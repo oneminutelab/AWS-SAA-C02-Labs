@@ -1,0 +1,7 @@
+aws configure
+aws s3 ls
+ls
+aws s3 cp demo.txt s3://my-test-0092/
+aws s3 ls s3://my-test-0092/
+aws s3 cp s3://my-test-0092/qa-08.png .
+ls
