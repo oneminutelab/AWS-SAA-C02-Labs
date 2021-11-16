@@ -1,0 +1,11 @@
+aws configure
+aws s3 ls
+aws s3 ls s3://my-test-0092/
+aws s3 ls s3://my-test-0092/my-new-folder/
+aws s3 ls s3://my-test-0092/my-test-folder/
+aws s3 cp s3://my-test-0092/demo.txt s3://my-test-0092/my-new-folder/
+aws s3 ls s3://my-test-0092/my-new-folder/
+aws s3 ls s3://my-test-0092/
+aws s3 mv s3://my-test-0092/demo.txt s3://my-test-0092/my-test-folder/
+aws s3 ls s3://my-test-0092/my-test-folder/
+aws s3 ls s3://my-test-0092/
