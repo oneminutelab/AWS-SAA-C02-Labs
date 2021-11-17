@@ -1,0 +1,9 @@
+aws configure
+ls
+cd downloads
+aws s3 ls
+aws s3 sync data s3://my-test-0092/data-backup
+aws s3 ls s3://my-test-0092/data-backup
+aws s3 sync data s3://my-test-0092/data-backup
+aws s3 sync data s3://my-test-0092/data-backup
+aws s3 ls s3://my-test-0092/data-backup
