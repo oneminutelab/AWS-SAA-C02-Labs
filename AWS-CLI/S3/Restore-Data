@@ -1,0 +1,5 @@
+aws configure
+aws s3 ls
+aws s3 s3://my-test-0092/
+aws s3 s3://my-test-0092/data-backup/
+aws s3 sync s3://my-test-0092/data-backup/ .
