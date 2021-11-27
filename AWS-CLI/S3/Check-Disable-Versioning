@@ -1,0 +1,4 @@
+aws configure
+aws s3 ls
+aws s3api get-bucket-versioning --bucket test-bucket
+aws s3api put-bucket-versioning --bucket test-bucket --versioning-configuration Status=Suspended
