@@ -1,0 +1,5 @@
+aws configure
+aws sns list-topics
+aws sns create-topic --name cli-topic
+aws sns subscribe --topic-arn xxxxxxxxxxxxxxxxxxxxxx --protocol email --notification-endpoint test@gmail.com
+aws sns publish --topic-arn xxxxxxxxxxxxxxxxxxxxxx --message "this is our CLI message"
