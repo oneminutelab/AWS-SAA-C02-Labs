@@ -1,0 +1,9 @@
+mysql -h endpointURL -u masterusername -p
+create database oneminutelab;
+use oneminutelab;
+create table student values (name char(50), batch int, class char(20), rollno int);
+desc student;
+insert into student values ('Ali',6,'AWS',101);
+select * from student;
+insert into student values ('Ahmad',7,'AWS',111);
+select * from student;
