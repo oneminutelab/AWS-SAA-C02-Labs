@@ -1,0 +1,9 @@
+mysql -h endpointURL -u masterusername -p
+use oneminutelab;
+desc student;
+select * from student;
+insert into student values ('saad',6,'AWS',102);
+select * from student;
+select name from student;
+select name,rollno from student;
+select name,rollno,class from student;
