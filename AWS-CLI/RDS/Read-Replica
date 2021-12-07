@@ -1,0 +1,5 @@
+mysql -h endpointURL -u masterusername -p
+show databases;
+use oneminutelab;
+show tables;
+select * from student;
