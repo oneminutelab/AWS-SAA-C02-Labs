@@ -1,4 +1,7 @@
 wget https://s3.amazonaws.com/amazoncloudwatch-agent/linux/amd64/latest/AmazonCloudWatchAgent.zip
 unzip AmazonCloudWatchAgent.zip
 sudo ./install.sh
-sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-config-wizard
+cd /opt/aws/amazon-cloudwatch-agent/
+ls
+cd bin/
+suod ./amazon-cloudwatch-agent-config-wizard
