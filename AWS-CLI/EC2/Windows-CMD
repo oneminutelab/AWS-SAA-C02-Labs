@@ -1,0 +1,4 @@
+aws configure
+ssh ec2-user@0.0.0.0 -i ssh-key.pem
+or
+ssh -i ssh-key.pem ec20user@0.0.0.0
