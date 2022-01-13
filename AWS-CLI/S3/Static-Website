@@ -1,0 +1,23 @@
+// Index.html
+------------------------------------------------------------------------------------------
+<html>
+	<head>
+		<title> OneMinuteLab </title>
+	</head>
+	<body>
+		<center><h1> WELCOME TO ONEMINUTELAB (We are running a Static Website) </h1></center>
+	
+	</body>
+</html>
+------------------------------------------------------------------------------------------
+// Error.html
+------------------------------------------------------------------------------------------
+<html>
+	<head>
+		<title> OneMinuteLab </title>
+	</head>
+	<body>
+		<center><h1> THIS IS AN ERROR PAGE (Home page is not found) </h1></center>
+	
+	</body>
+</html>
