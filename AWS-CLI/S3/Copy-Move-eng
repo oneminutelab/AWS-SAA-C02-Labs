@@ -1,0 +1,10 @@
+aws configure
+aws s3 ls
+aws s3 ls s3://test-bucket0092/
+aws s3 ls s3://test-bucket0092/folder01/
+aws s3 cp s3://test-bucket0092/0.jpg s3://test-bucket0092/filder01/
+aws s3 ls s3://test-bucket0092/folder01/
+aws s3 ls s3://test-bucket0092/
+aws s3 mv s3://test-bucket0092/demo.txt s3://test-bucket0092/filder01/
+aws s3 ls s3://test-bucket0092/
+aws s3 ls s3://test-bucket0092/folder01/
